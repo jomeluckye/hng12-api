@@ -13,9 +13,9 @@ app.use(cors());
 app.get('/api/info', (req, res) => {
   // Create the response object with the requested data
   const response = {
-    email: 'your-email@example.com',  // Replace with your actual email
+    email: 'emajumeck80@gmail.com',  // Replace with your actual email
     current_datetime: new Date().toISOString(),  // ISO 8601 formatted timestamp
-    github_url: 'https://github.com/your-username/your-repo'  // Replace with the actual GitHub URL of your project
+    github_url: 'https://github.com/jomeluckye/hng12-api'  // Replace with the actual GitHub URL of your project
   };
 
   // Send the JSON response
